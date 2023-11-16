@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://tailwindcomponents.com/gradient-generator/assets/header.a6837f08.webp);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    min-height: 500px;
+    padding: 25px 64px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+h1 {
+    font-size: 100px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 19px;
+}
+
+#addBtn {
+    padding: 5px 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 20px gray;
+    background-color: blueviolet;
+    color: white;
+    scale: 1
+
+}
+#addBtn:hover{
+    background-color: rgb(177, 98, 250);
+    scale: 0.95;
+    cursor:  pointer;
+}
+
+ul {
+    width: 100%;
+    /* height: 100vh;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+}
+
+ul li {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    background-color: rgb(225, 226, 151);
+    border-radius: 10px;
+    padding: 0px 20px;
+    font-size: 19px;
+    /* color: white; */
+    box-shadow: 0 0 10px blue;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+li button {
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+li button:hover {
+    background-color:rgb(38, 38, 204);
+    cursor: pointer;
+}
